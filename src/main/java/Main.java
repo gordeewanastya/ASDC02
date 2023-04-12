@@ -18,10 +18,10 @@ public class Main {
         SortingManager.printResults("Bubble Sort",SortingManager.bubbleSort(students));
 
         //Selection Sort
-
+        SortingManager.printResults("Selection Sort",SortingManager.selectionSort(students));
 
         //Insertion Sort
-
+        SortingManager.printResults("Insertion Sort",SortingManager.insertionSort(students));
 
 
     }
